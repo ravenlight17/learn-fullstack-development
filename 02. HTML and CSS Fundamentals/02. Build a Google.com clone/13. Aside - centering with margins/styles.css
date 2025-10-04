@@ -1,4 +1,12 @@
 img {
     width: 200px;
+    display: block; /* images are inline by default, so it controls the horizontal space */
+    margin-left: auto; /*take up all available space */
+    margin-right: auto; /*take up all available space */
 }
 
+/* FYI: 
+How to center an element horizontally using margins: 
+1. display: block 
+2. must have a width
+3, margin left/right: auto */
