@@ -1,5 +1,9 @@
-img {
+div{
     margin-top: 100px;
+    
+}
+
+img {
     display: block;
     width: 300px;
 }

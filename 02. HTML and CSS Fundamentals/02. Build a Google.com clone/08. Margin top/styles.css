@@ -4,6 +4,7 @@ img {
     Do you remember how we added spacing in the 
     cookie widget example?
     */
+    margin-top: 20px;
     display: block;
     width: 300px;
 }
@@ -12,4 +13,5 @@ img {
 input {
     display: block;
     width: 400px;
+    
 }
