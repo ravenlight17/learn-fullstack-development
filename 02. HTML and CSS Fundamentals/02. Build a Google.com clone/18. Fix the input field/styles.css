@@ -14,6 +14,7 @@
 }
 
 .search-input {
+    
     display: block;
     width: 400px;
     margin-left: auto;
@@ -22,6 +23,18 @@
     Challenge: 
     Design the search field according to the spec
     */
-    
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    /* height: 24px; */
+    line-height: 24px; /* use line-height instead of height for input field */
+    padding-left: 30px;
+    padding-right: 30px; 
+    padding-bottom: 10px;
+    padding-top: 10px;
+   
+  
+
 }
 
+/* FYI: Might have issues using height for input field. 
+Need to use line-height instead as its honored by more browsers! */
