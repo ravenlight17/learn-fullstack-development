@@ -1,5 +1,6 @@
 .main {
     margin-top: 100px;    
+    text-align: center;
 }
 
 .logo-img {
@@ -25,9 +26,10 @@
 }
 
 .btn {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline ;
+    /* margin-left: auto;
+    margin-right: auto; */
+   
     margin-top: 30px;
     background: #dfe1e5;
     border: none;
@@ -38,3 +40,27 @@
     border-radius: 4px;
     font-size: 14px;
 }
+
+.next-btn{
+    display: inline;
+    /* margin-left: auto;
+    margin-right: auto; */
+    
+    margin-top: 30px;
+    background: #dfe1e5;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Using margins to center seems to only work when you use display:block. 
+Simple way to center items: 
+
+make btns display: inline, remove margins l/r auto, add text-align to the parent container with center value
+
+
+*/
