@@ -29,3 +29,16 @@ Challenge:
 Center the button and add some space above it
 */
 
+.btn{
+
+    /* FYI: So when using margins left/right to center an element. If it implicitly has a default WIDTH, for example
+    a btn you don't need to add the width. You can center a btn by just adding the display, margin left/right (l/r) to center an element. */
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 10px;
+
+}
+
