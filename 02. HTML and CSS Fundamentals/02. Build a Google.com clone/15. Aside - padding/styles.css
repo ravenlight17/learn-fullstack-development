@@ -1,3 +1,19 @@
 .card {
     color: #222222;
+    background-color: whitesmoke;
+    width: 300px;
+    border: solid;
+    border-width: 1px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* padding: 20px; */
+    padding-top: 100px;
+    padding-right: 100px;
+
 }
+
+
+/*FYI: Dont want to use pure black and pure white as its not a pleasant experience on the eyes. 
+Thats why color property is using  #222222 which is a softer black*/
