@@ -6,6 +6,7 @@ Give the div a "btn-wrapper" class.
 
 .main {
     margin-top: 100px;    
+   
 }
 
 .logo-img {
@@ -14,6 +15,12 @@ Give the div a "btn-wrapper" class.
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.btn-wrapper {
+ display: flex;
+ justify-content: center;
+
 }
 
 .search-input {
@@ -31,9 +38,9 @@ Give the div a "btn-wrapper" class.
 }
 
 .btn {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* display: block; */
+    margin-left: 5px;
+    margin-right: 5px;
     margin-top: 30px;
     background: #dfe1e5;
     border: none;
