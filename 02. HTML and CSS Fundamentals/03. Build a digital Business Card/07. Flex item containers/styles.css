@@ -11,3 +11,11 @@ body {
     padding: 20px;
     display: flex;
 }
+
+.info-div{
+margin-left: 20px;
+}
+
+.img-div{
+    margin-right: 20px;
+}

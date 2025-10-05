@@ -9,11 +9,14 @@ body {
 .card {
     padding: 20px;
     display: flex;
+    
     /*
     Challenge:
     Add horizontal space around the flex children.
     Hint: google "justify content"
     */
+
+    justify-content:space-around;
 }
 
 .border-blue {

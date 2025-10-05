@@ -7,16 +7,34 @@ body {
 }
 
 .card {
+
+   
+
+
     /*
     Challenge:
     Give the card a width of 400px wide and center it.
     */
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
     padding: 20px;
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+        
 }
 
 .border-blue {
     border: 1px dotted blue;
 }
 
+/*NOTE: flex box containers are by default display block containers.Dsiplay block takes up all the available space in the horizontal axis and its 1 of the 3 ingredients you need to center an object 
+
+1. display:block or display: flex
+2. set width
+3. set margin l/r to auto
+
+
+
+*/

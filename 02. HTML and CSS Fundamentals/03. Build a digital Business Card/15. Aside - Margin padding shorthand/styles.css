@@ -8,9 +8,22 @@
     Challenge:
     Translate this into using the margin shorthand. 
     */
-    margin-top: 40px;
+
+    /*If you have different values*/
+    /* margin-top: 40px;
     margin-right: 0;
     margin-bottom: 0;
-    margin-left: 100px;
+    margin-left: 100px; */
+
+    margin: 40px 0 0 100px; /* top right bottom left*/
+
+    /*If you have same values*/
+
+    /* margin-top: 40px;
+    margin-bottom: 40px; 
+    margin-right: auto; 
+    margin-left: auto;   */
+
+    margin: 40px auto; /* top/bottom right/left */
     
 }

@@ -22,9 +22,10 @@ body {
     blue - #ddebf8
     purple - #d8cefe
     */
+
+
+    background-color: #ddebf8; /* could also use background: #ddebf8 */
+    border-bottom: 10px solid #d8cefd;
+    color: #2b2839;
 }
 
-.border-blue {
-    border: 1px dotted blue;
-}
-    

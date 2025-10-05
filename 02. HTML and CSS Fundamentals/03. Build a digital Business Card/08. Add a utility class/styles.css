@@ -7,13 +7,25 @@ body {
 }
 
 .card {
-    border: 1px dotted blue;
+    
     padding: 20px;
     display: flex;
 }
+
+
+/* Utility class =  is a class for a single CSS property. In this example, its a class that would set the border for elements that use the class for example: 
+ .italic{
+    font-style: italic;   
+} */
+
+
 
 /*
 Challenge:
 Create a utility class for the dotted blue border.
 Give the class to both flexbox children in the HTML.
 */
+
+.dotted-blue-border{
+    border: 1px dotted blue;
+}
