@@ -1,8 +1,16 @@
 @font-face {
-    src: url("Corleone.ttf");
-    font-family: Corleone;
+    /* src: url("Corleone.ttf");
+    font-family: Corleone; Name of the font, need to name it something */
+
+    /* src: url("eartha-cortez-demo.regular.ttf");
+    font-family: 'Earth'; */
+
+    src: url("Funky Things.otf");
+    
+    font-family: Funk;
 }
 
 h1 {
-    
+    /* font-family: Corleone; Use the name of the font here */
+    font-family: Funk; /*Use the name of the font here*/
 }

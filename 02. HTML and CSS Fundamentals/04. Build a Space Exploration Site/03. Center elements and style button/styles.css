@@ -11,3 +11,17 @@ body {
     background-size: cover;
 }
 
+.content-wrapper{
+    text-align: center;
+}
+
+.btn{
+    width: 100px;
+    height: 45px;
+    font-size: 22px;
+    font-style: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 6px 12px;
+    background-color: white;
+    border: none;
+}

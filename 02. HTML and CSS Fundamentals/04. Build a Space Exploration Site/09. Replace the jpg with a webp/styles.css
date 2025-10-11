@@ -1,6 +1,6 @@
 body {
     color: white;
-    background-image: url("images/galaxy.webp");
+    background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjI4Y20weW84Zzd6MmY5c2Y5cnM4bnMyYWk0aTR0ZnUyZmtjODEzcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/G5h04AkAvAHcs/giphy.gif");
     background-size: cover;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
@@ -21,3 +21,4 @@ body {
     border-bottom: 4px solid white;
 }
    
+/* Webp is similar to a gifs but has a better compression. More compact so it doesnt use so much data as gifs does when sent from server to client. Y can get webp from giphy */
