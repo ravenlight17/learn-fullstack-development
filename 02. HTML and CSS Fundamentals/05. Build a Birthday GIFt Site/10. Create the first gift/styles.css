@@ -47,3 +47,23 @@ Challenge:
 PS: the image should be 400px wide.
 */
 
+.gift-section{
+    margin-top: 50px;
+}
+
+.gift-img{
+    width: 400px;
+    border:5px solid #ffffff;
+    border-radius: 5px;
+}
+
+.gift-title{
+    margin-bottom: 5px;
+}
+
+.gift-hint{
+    margin-top: 0; /*Made this 0 bc the default margin is the same as the .gift-title margin's default so making this 0 makes the other margin take precedent*/
+}
+
+
+/* Because the h2 and h3 elements have the same default margins you need to make 1 element has to be 0 margin and the other has to have the amount that you want to add. Doesnt matter which you start with. Because their the same margins they collapse into each other.  

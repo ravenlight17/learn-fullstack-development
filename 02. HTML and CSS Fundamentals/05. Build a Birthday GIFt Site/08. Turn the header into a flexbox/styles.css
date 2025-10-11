@@ -27,3 +27,10 @@ id called "header".
 Then, select the "header" and use flexbox to achieve
 the layout you've been provided in the design slide.
 */
+
+#header{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center ; /*Keep in mind that the align-items defaults to stretch, which will stretch your items across the screen so need to add something in there*/
+}
