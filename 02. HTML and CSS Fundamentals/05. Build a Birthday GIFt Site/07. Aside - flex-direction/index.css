@@ -14,8 +14,9 @@
     start, center, end
     */
     display: flex;
-    justify-content: start;
-    align-items: start;
+    flex-direction: column; /*By default they stack as a row*/
+    justify-content:start; /*When flex-direction is used, it runs on the cross axis not the main axis (top down from left right)*/
+    align-items: center;/*When flex-direction is used, it runs on the main axis not the crossaxis (left right from top down)*/
 }
 
 .item {
