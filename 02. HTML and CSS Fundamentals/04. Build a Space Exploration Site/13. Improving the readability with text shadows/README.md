@@ -1,4 +1,8 @@
-<html>
+HTML LANG Attribute 
+
+lang sets the language of the content in an HTML page
+
+<html lang="en">
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +15,8 @@
             <h1 id="title">Join the <span class="underline">exploration</span></h1>
             <button class="btn">Apply</button>
         </div>
-        <h3>Terms and conditions apply</h3>
+        <h3 lang="en">Terms and conditions apply</h3>
     </body>
 </html>
+
+
