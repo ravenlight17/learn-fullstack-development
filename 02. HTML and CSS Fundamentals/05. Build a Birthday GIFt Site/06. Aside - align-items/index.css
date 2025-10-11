@@ -13,6 +13,10 @@
     align-items:
     start, center, end
     */
+
+    display: flex;
+    justify-content: space-around;/*Moves the item on the horizontal axis - main axis*/
+    align-items: start; /*Moves the item on the vertical axis - cross axis*/
 }
 
 .item {
@@ -24,3 +28,4 @@
     border: 2px solid black;
     background: linear-gradient(#14463d, #016a26);
 }
+

@@ -3,6 +3,7 @@ body {
     font-family: 'Happy Monkey', cursive;
     background: #a2d2ff;
     color: #ffffff;
+    
 }
 
 h1, h2, h3, h4, p {
@@ -17,4 +18,13 @@ h1, h2, h3, h4, p {
 
 h2, h4 {
     background: #EFB0C9;
+    
+     
+}
+
+.text-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;    
 }
