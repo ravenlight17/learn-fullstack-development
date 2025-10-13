@@ -87,3 +87,13 @@ Text:
 This one's for you, my friend 🥂
 */
 
+
+#gift-img-cheers{
+    height: 200px; /* This takes precedent bc of specificity. Which means that the more specific a CSS selector is, the higher it will be prioritized. This ID selector is more specific then the class (ie:.gift-img) bc only one element can have an id.*/
+}
+
+
+#gift-img-cheers:hover{
+    background-image: url("images/cheers.gif");
+    height: 200px;
+}
