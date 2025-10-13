@@ -38,6 +38,9 @@ h1, h2, h3, h4, p {
 
 .gift-section {
     margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .gift-title {
@@ -52,7 +55,6 @@ h1, h2, h3, h4, p {
     width: 400px;
     border: 6px solid white;
     border-radius: 10px;
-}
 
 /*
 Challenge:
@@ -62,5 +64,21 @@ like the provided design again.
 It needs a height (should be a square), a
 background image, and to be centered again.
 */
+
+background-image: url('images/gift-cover.jpg');
+height: 400px;
+background-position: center;
+background-size: 100%;
+
+    
+}
+
+.gift-img:hover{
+    box-shadow: 5px 5px 5px black;
+    border-color:   plum;
+    background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmg0dDR1Y21kc2F1cTV5NzA0ZTBpNW11ZnAwa2J0YWhyb20xeWFzdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g5R9dok94mrIvplmZd/giphy.gif');
+    background-size: cover;
+}
+
 
 
